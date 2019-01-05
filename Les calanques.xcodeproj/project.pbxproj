@@ -56,6 +56,9 @@
 		366A505721E0E6EE00EDD318 /* Les calanques */ = {
 			isa = PBXGroup;
 			children = (
+				366A506C21E0F2DE00EDD318 /* Modele */,
+				366A506D21E0F30100EDD318 /* Vue */,
+				366A506E21E0F31E00EDD318 /* Controller */,
 				366A505821E0E6EE00EDD318 /* AppDelegate.swift */,
 				366A505A21E0E6EE00EDD318 /* FirstViewController.swift */,
 				366A505C21E0E6EE00EDD318 /* SecondViewController.swift */,
@@ -65,6 +68,27 @@
 				366A506621E0E6EF00EDD318 /* Info.plist */,
 			);
 			path = "Les calanques";
+			sourceTree = "<group>";
+		};
+		366A506C21E0F2DE00EDD318 /* Modele */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modele;
+			sourceTree = "<group>";
+		};
+		366A506D21E0F30100EDD318 /* Vue */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vue;
+			sourceTree = "<group>";
+		};
+		366A506E21E0F31E00EDD318 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
