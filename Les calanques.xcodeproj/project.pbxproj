@@ -8,22 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		366A505921E0E6EE00EDD318 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366A505821E0E6EE00EDD318 /* AppDelegate.swift */; };
-		366A505B21E0E6EE00EDD318 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366A505A21E0E6EE00EDD318 /* FirstViewController.swift */; };
-		366A505D21E0E6EE00EDD318 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366A505C21E0E6EE00EDD318 /* SecondViewController.swift */; };
 		366A506021E0E6EE00EDD318 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 366A505E21E0E6EE00EDD318 /* Main.storyboard */; };
 		366A506221E0E6EF00EDD318 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 366A506121E0E6EF00EDD318 /* Assets.xcassets */; };
 		366A506521E0E6EF00EDD318 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 366A506321E0E6EF00EDD318 /* LaunchScreen.storyboard */; };
+		366A507021E102B800EDD318 /* Calanques.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366A506F21E102B800EDD318 /* Calanques.swift */; };
+		366A507221E1082600EDD318 /* CalanqueCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366A507121E1082600EDD318 /* CalanqueCollection.swift */; };
+		366A507421E20B1300EDD318 /* ControllerAvecTableVieuw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366A507321E20B1300EDD318 /* ControllerAvecTableVieuw.swift */; };
+		366A507621E20B5600EDD318 /* ControllerAvecCarte.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366A507521E20B5600EDD318 /* ControllerAvecCarte.swift */; };
+		366A507821E20BC400EDD318 /* TableViewIntergreeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366A507721E20BC400EDD318 /* TableViewIntergreeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		366A505521E0E6EE00EDD318 /* Les calanques.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Les calanques.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		366A505821E0E6EE00EDD318 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		366A505A21E0E6EE00EDD318 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		366A505C21E0E6EE00EDD318 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		366A505F21E0E6EE00EDD318 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		366A506121E0E6EF00EDD318 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		366A506421E0E6EF00EDD318 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		366A506621E0E6EF00EDD318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		366A506F21E102B800EDD318 /* Calanques.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calanques.swift; sourceTree = "<group>"; };
+		366A507121E1082600EDD318 /* CalanqueCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalanqueCollection.swift; sourceTree = "<group>"; };
+		366A507321E20B1300EDD318 /* ControllerAvecTableVieuw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerAvecTableVieuw.swift; sourceTree = "<group>"; };
+		366A507521E20B5600EDD318 /* ControllerAvecCarte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerAvecCarte.swift; sourceTree = "<group>"; };
+		366A507721E20BC400EDD318 /* TableViewIntergreeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewIntergreeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +66,6 @@
 				366A506D21E0F30100EDD318 /* Vue */,
 				366A506E21E0F31E00EDD318 /* Controller */,
 				366A505821E0E6EE00EDD318 /* AppDelegate.swift */,
-				366A505A21E0E6EE00EDD318 /* FirstViewController.swift */,
-				366A505C21E0E6EE00EDD318 /* SecondViewController.swift */,
 				366A505E21E0E6EE00EDD318 /* Main.storyboard */,
 				366A506121E0E6EF00EDD318 /* Assets.xcassets */,
 				366A506321E0E6EF00EDD318 /* LaunchScreen.storyboard */,
@@ -73,6 +77,8 @@
 		366A506C21E0F2DE00EDD318 /* Modele */ = {
 			isa = PBXGroup;
 			children = (
+				366A506F21E102B800EDD318 /* Calanques.swift */,
+				366A507121E1082600EDD318 /* CalanqueCollection.swift */,
 			);
 			path = Modele;
 			sourceTree = "<group>";
@@ -87,6 +93,9 @@
 		366A506E21E0F31E00EDD318 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				366A507321E20B1300EDD318 /* ControllerAvecTableVieuw.swift */,
+				366A507521E20B5600EDD318 /* ControllerAvecCarte.swift */,
+				366A507721E20BC400EDD318 /* TableViewIntergreeController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -162,9 +171,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				366A505D21E0E6EE00EDD318 /* SecondViewController.swift in Sources */,
+				366A507421E20B1300EDD318 /* ControllerAvecTableVieuw.swift in Sources */,
+				366A507821E20BC400EDD318 /* TableViewIntergreeController.swift in Sources */,
 				366A505921E0E6EE00EDD318 /* AppDelegate.swift in Sources */,
-				366A505B21E0E6EE00EDD318 /* FirstViewController.swift in Sources */,
+				366A507621E20B5600EDD318 /* ControllerAvecCarte.swift in Sources */,
+				366A507221E1082600EDD318 /* CalanqueCollection.swift in Sources */,
+				366A507021E102B800EDD318 /* Calanques.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
